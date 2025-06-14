@@ -1,0 +1,10 @@
+streamlit
+mysql-connector-python
+pandas
+matplotlib
+streamlit-option-menu
+fpdf
+numpy
+Pillow
+tensorflow
+bcrypt
