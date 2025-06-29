@@ -10,7 +10,7 @@ from fpdf import FPDF
 
 # Konfigurasi database
 DB_CONFIG = {
-    'host': 'https://risky-cnn.streamlit.app/',
+    'host': 'risky-cnn.streamlit.app',
     'user': 'u1362490_d4u5',
     'password': 'h9Di8%*1IPL2',
     'database': 'u1362490_sistem_presensi'
