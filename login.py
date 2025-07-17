@@ -21,10 +21,10 @@ def apply_inline_styles():
 
     
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',
-    'database': 'sistem_presensi'
+    'host': st.secrets["connections.mysql"]["host"],
+    'user': st.secrets["connections.mysql"]["username"],
+    'password': st.secrets["connections.mysql"]["password"],
+    'database': st.secrets["connections.mysql"]["database"],
 }
 
 def get_db_connection():
